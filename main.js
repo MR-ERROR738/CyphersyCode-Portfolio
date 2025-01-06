@@ -203,7 +203,7 @@ contactForm.addEventListener('submit', (e) => {
         });
 });
 window.addEventListener('load', () => {
-    window.location = '#';
+    window.location.replace('#');
 });
 // Initialize theme
 document.addEventListener('DOMContentLoaded', () => {
